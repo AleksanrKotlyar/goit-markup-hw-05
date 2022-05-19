@@ -285,8 +285,9 @@ img {
 
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 10;
-  opacity: 1;
-  transition: opacity var(--transition-duration) var(--transition-timing-function);
+
+  transition: opacity var(--transition-duration) var(--transition-timing-function),
+    visibility var(--transition-duration) var(--transition-timing-function);
 }
 
 .modal {
